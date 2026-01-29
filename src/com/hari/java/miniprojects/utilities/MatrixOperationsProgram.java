@@ -38,13 +38,15 @@ public class MatrixOperationsProgram {
             	System.out.println("Invalid choice. Try Again");
             }
 		}while(choice != 4);
+		
+		scanner.close();
 	}
 	
 	private static void matrixAddition(Scanner scanner) {
 		System.out.print("Enter number of rows: ");
 		int rows = scanner.nextInt();
 		
-		System.out.print("Enter number of colomns: ");
+		System.out.print("Enter number of columns: ");
 		int cols = scanner.nextInt();
 		
 		int[][] a = new int[rows][cols];
@@ -78,7 +80,7 @@ public class MatrixOperationsProgram {
 		System.out.print("Enter number of rows: ");
 		int rows = scanner.nextInt();
 		
-		System.out.print("Enter number of colomns: ");
+		System.out.print("Enter number of columns: ");
 		int cols = scanner.nextInt();
 		
 		int[][] a = new int[rows][cols];
@@ -113,7 +115,7 @@ public class MatrixOperationsProgram {
 		System.out.print("Enter number of rows: ");
 		int rows = scanner.nextInt();
 		
-		System.out.print("Enter number of colomns: ");
+		System.out.print("Enter number of columns: ");
 		int cols = scanner.nextInt();
 		
 		int[][] a = new int[rows][cols];
