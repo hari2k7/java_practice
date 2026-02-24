@@ -1,6 +1,6 @@
 package com.hari.java.practice_exercises.patterns;
 import java.util.Scanner;
-public class DiamandNumber {
+public class DiamandInPascal {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number of rows: ");
