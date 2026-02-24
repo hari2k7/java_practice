@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class DiamandPascal {
 
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number of rows: ");
         int n = sc.nextInt();
