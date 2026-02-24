@@ -15,7 +15,7 @@ public class PascalDiamondPattern {
         int n = scanner.nextInt();
         for (int i = 0; i < n; i++) {
             int num = 1;
-            for (int space = 0; space < n - i - 1; space++) {
+            for (int s = 0; s < n - i - 1; s++) {
                 System.out.print("  ");
             }
             for (int j = 0; j <= i; j++) {
@@ -27,7 +27,7 @@ public class PascalDiamondPattern {
 
             int num = 1;
 
-            for (int space = 0; space < n - i - 1; space++) {
+            for (int s = 0; s < n - i - 1; s++) {
                 System.out.print("  ");
             }
 
