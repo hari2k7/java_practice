@@ -8,11 +8,10 @@ import java.util.Scanner;
 public class PascalDiamondPattern {
 
     public static void main(String[] args) {
-
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter number of rows: ");
-        int n = scanner.nextInt();
+        int n = sc.nextInt();
         for (int i = 0; i < n; i++) {
             int num = 1;
             for (int s = 0; s < n - i - 1; s++) {
@@ -37,6 +36,6 @@ public class PascalDiamondPattern {
             }System.out.println();
         }
 
-        scanner.close();
+        sc.close();
     }
 }
