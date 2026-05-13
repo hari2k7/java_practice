@@ -8,7 +8,7 @@ interface EfficiencyStandard{
     void calculateRange();
 }
 
-abstract class Vehicle implements Serializable{
+abstract class Vehicle{
 
     int vno;
     String make;
