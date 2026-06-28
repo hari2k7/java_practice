@@ -67,21 +67,6 @@ Programs that focus on number logic and utilities.
 
 ---
 
-## 🔜 Future Plans
-
-- Refactor existing programs using **OOP concepts**
-- Add more mini projects:
-    - Bank Management System
-    - Matrix Operations
-    - Library Management System
-- Learn and apply:
-    - Classes & Objects
-    - Encapsulation
-    - Inheritance
-    - Polymorphism
-
----
-
 ## 🛠 How to Run
 
 Clone the repository
